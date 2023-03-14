@@ -1,0 +1,64 @@
+{
+  "sessions": [
+    {
+      "title": "Numerales",
+      "index": "18",
+      "isWatched": true
+    },
+    {
+      "title": "Geometría",
+      "index": "19",
+      "isWatched": true
+    },
+    {
+      "title": "Fracciones",
+      "index": "20",
+      "isWatched": true
+    },
+    {
+      "title": "Decimales",
+      "index": "21",
+      "isWatched": true
+    },
+    {
+      "title": "Ordinales",
+      "index": "22",
+      "isWatched": true
+    },
+    {
+      "title": "Ordinales y Fracciones",
+      "index": "23",
+      "isWatched": true
+    },
+    {
+      "title": "Fracciones y Decimales",
+      "index": "24",
+      "isWatched": true
+    },
+    {
+      "title": "Ordinales, Fracciones y Decimales",
+      "index": "25",
+      "isWatched": false
+    },
+    {
+      "title": "Ordinales, Fracciones, Decimales y Geometría",
+      "index": "26",
+      "isWatched": false
+    },
+    {
+      "title": "Geometría y Fracciones",
+      "index": "27",
+      "isWatched": false
+    },
+    {
+      "title": "Fracciones, Decimales y Geometría",
+      "index": "28",
+      "isWatched": false
+    },
+    {
+      "title": "Ordinales, Fracciones, Decimales, Geometría, Numerales",
+      "index": "29",
+      "isWatched": false
+    }
+  ]
+}

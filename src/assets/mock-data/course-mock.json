@@ -1,0 +1,23 @@
+
+{
+  "id": "as234fref134sf312",
+  "quarters": [
+    {
+      "nTotalSessions": 50,
+      "nCompletedSessions": 50
+    },
+    {
+      "nTotalSessions": 50,
+      "nCompletedSessions": 30
+    },
+    {
+      "nTotalSessions": 50,
+      "nCompletedSessions": 0
+    }
+  ],
+  "currentSession": {
+    "title": "Ordinales, Fracciones y Decimales",
+    "index": "25",
+    "isWatched": false
+  }
+}

@@ -1,0 +1,21 @@
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  height: 75px;
+  padding: 0 50px;
+}
+
+.buttons-box {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+
+  width: 200px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
