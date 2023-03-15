@@ -1,0 +1,38 @@
+
+.title {
+  margin-bottom: 10px;
+}
+
+.buttons-box {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 20px;
+
+  button {
+    margin-right: 10px;
+  }
+}
+
+.custom-button {
+  color: white;
+}
+
+.custom-border-button {
+  border: 2px solid #ff7043;
+  font-weight: 600;
+}
+
+.quarters-boxes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  div {
+    margin-right: 20px;
+  }
+}

@@ -44,6 +44,7 @@ import { MatMenuModule } from '@angular/material/menu';
       useClass: MockHttpInterceptor,
       multi: true
     }],
+  exports: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

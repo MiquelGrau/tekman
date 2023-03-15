@@ -3,14 +3,17 @@
   "id": "as234fref134sf312",
   "quarters": [
     {
+      "title": "1º Trimestre",
       "nTotalSessions": 50,
       "nCompletedSessions": 50
     },
     {
+      "title": "2º Trimestre",
       "nTotalSessions": 50,
       "nCompletedSessions": 30
     },
     {
+      "title": "3º Trimestre",
       "nTotalSessions": 50,
       "nCompletedSessions": 0
     }
@@ -19,5 +22,9 @@
     "title": "Ordinales, Fracciones y Decimales",
     "index": "25",
     "isWatched": false
+  },
+  "currentQuarter": {
+    "id": "AF4GTS56AERT89",
+    "title": "2º Trimestre"
   }
 }

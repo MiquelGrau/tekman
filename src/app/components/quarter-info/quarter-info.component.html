@@ -1,0 +1,12 @@
+<div class="quarter-info-container card-box-container">
+  <div class="text">
+    <b>{{ quarter.title }}</b>
+    <span>{{ quarter.nCompletedSessions }} / {{ quarter.nTotalSessions }} sesiones</span>
+  </div>
+  <div class="chart-box">
+    <div *ngIf="quarter.nCompletedSessions === 0" class="empty-chart"></div>
+    <div *ngIf="quarter.nCompletedSessions !== 0" class="chart"
+         [style.background-image]="'conic-gradient(#ff7043 ' + nPercent() + '%, #e7e7e7 ' + nPercentInverted() + '%)'">
+    </div>
+  </div>
+</div>
