@@ -8,16 +8,19 @@
           {{ course.currentQuarter.title }} - Sesión {{ course.currentSession.index }}, {{ course.currentSession.title }}
         </div>
         <div class="buttons-box">
-          <button mat-raised-button class="custom-button" color="accent">Reproducción ordenada</button>
-          <button mat-button class="custom-border-button" color="accent">Aleatorio</button>
-          <button mat-button class="custom-border-button" color="accent">Siguiente sesión</button>
+          <button type="button" (click)="goToSession(course.currentSession.id)"
+                  mat-raised-button class="custom-button" color="accent">Reproducción ordenada</button>
+          <button type="button"
+                  mat-button class="custom-border-button" color="accent">Aleatorio</button>
+          <button type="button"
+                  mat-button class="custom-border-button" color="accent">Siguiente sesión</button>
         </div>
       </app-card-box>
       <h3 style="margin-top: 40px">Temario</h3>
       <div class="quarters-boxes">
-        <div *ngFor="let quarter of course.quarters">
+        <button type="button" *ngFor="let quarter of course.quarters" (click)="goToQuarter(quarter.id)">
           <app-quarter-info [quarter]="quarter"></app-quarter-info>
-        </div>
+        </button>
       </div>
     </ng-container>
   </div>

@@ -12,11 +12,11 @@ const routes: Routes = [
     loadChildren: () => import('./pages/course/course.module').then((m) => m.CourseModule),
   },
   {
-    path: 'quarter',
+    path: 'quarter/:id',
     loadChildren: () => import('./pages/quarter/quarter.module').then((m) => m.QuarterModule),
   },
   {
-    path: 'get-ready',
+    path: 'get-ready/:id',
     loadChildren: () => import('./pages/get-ready/get-ready.module').then((m) => m.GetReadyModule),
   },
   {

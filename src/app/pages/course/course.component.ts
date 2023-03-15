@@ -3,6 +3,7 @@ import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs/internal/Observable';
 import {selectCourse, selectLoading} from '../../state/selectors/course.selectors';
 import { CourseModel } from '../../core/models/course.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-course',
@@ -15,11 +16,20 @@ export class CourseComponent implements OnInit {
 
   constructor (
     private store: Store<any>,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
     this.loading$ = this.store.select(selectLoading);
     this.course$ = this.store.select(selectCourse);
+  }
+
+  goToQuarter(id: string): void {
+    this.router.navigate(['/quarter/', id]);
+  }
+
+  goToSession(id: string): void {
+    this.router.navigate(['/get-ready/', id]);
   }
 
 }

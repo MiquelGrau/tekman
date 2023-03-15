@@ -32,7 +32,12 @@
   justify-content: flex-start;
   align-items: flex-start;
 
-  div {
+  button {
     margin-right: 20px;
+    border: 0;
+    padding: 0;
+    background: none;
+
+    cursor: pointer;
   }
 }
